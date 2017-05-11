@@ -15,6 +15,7 @@
 		40D6E8661EC4CF1000928681 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 40D6E8641EC4CF1000928681 /* LaunchScreen.storyboard */; };
 		40D6E8711EC4CF1000928681 /* PlistTutoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40D6E8701EC4CF1000928681 /* PlistTutoTests.swift */; };
 		40D6E87C1EC4CF1000928681 /* PlistTutoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40D6E87B1EC4CF1000928681 /* PlistTutoUITests.swift */; };
+		40D6E88A1EC4CF2800928681 /* list.plist in Resources */ = {isa = PBXBuildFile; fileRef = 40D6E8891EC4CF2800928681 /* list.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		40D6E8771EC4CF1000928681 /* PlistTutoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PlistTutoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		40D6E87B1EC4CF1000928681 /* PlistTutoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlistTutoUITests.swift; sourceTree = "<group>"; };
 		40D6E87D1EC4CF1000928681 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		40D6E8891EC4CF2800928681 /* list.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = list.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 		40D6E84C1EC4CF1000928681 = {
 			isa = PBXGroup;
 			children = (
+				40D6E8891EC4CF2800928681 /* list.plist */,
 				40D6E8571EC4CF1000928681 /* PlistTuto */,
 				40D6E86F1EC4CF1000928681 /* PlistTutoTests */,
 				40D6E87A1EC4CF1000928681 /* PlistTutoUITests */,
@@ -235,6 +238,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				40D6E88A1EC4CF2800928681 /* list.plist in Resources */,
 				40D6E8661EC4CF1000928681 /* LaunchScreen.storyboard in Resources */,
 				40D6E8631EC4CF1000928681 /* Assets.xcassets in Resources */,
 				40D6E85E1EC4CF1000928681 /* Main.storyboard in Resources */,
